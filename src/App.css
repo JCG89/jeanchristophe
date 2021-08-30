@@ -1,38 +1,37 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+
+:root{
+  --primary-white: #fff;
+  --primary-orange: #f9ab00;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  font-family:"Courier new" sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/**********Menu links************/
+ .navbar-nav > li >a{
+ 
+ margin:  1.25rem;
+}
+nav ul li{
+  text-transform: uppercase;
+}
+.container a{
+  color: var(--primary-white)  !important;
+  
+}
+.container a:hover{
+ 
+  border-top: 0.1875rem solid var(--primary-orange) ;
+}
+
+@media screen and(max-width: 500px 750px){
+  
+  .container a:hover{
+ 
+    border-top: 0.1875rem solid var(--primary-orange) ;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
