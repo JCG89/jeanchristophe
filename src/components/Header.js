@@ -9,7 +9,7 @@ export default function Header() {
                         <Typed
                               className="typed-text"
                               strings={["Développeur web &web mobile",
-                                    "HTML5 CSS3 JS PHP", "REACT SYMFONY 5 WORDPRESS"]}
+                                    "HTML5 CSS3 JS PHP", "REACT, SYMFONY, REDUX, 5 WORDPRESS"]}
                               typeSpeed={40}
                               backSpeed={60}
                               loop

@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Apropos from "./components/Apropos";
 import Competences from "./components/Competences";
+import Experience from "./components/Experience";
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
       <Header />
       <Apropos />
       <Competences />
+      <Experience />
     </>
   );
 }
