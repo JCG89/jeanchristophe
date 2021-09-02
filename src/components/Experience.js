@@ -10,7 +10,7 @@ export default function Experience() {
                         <div className="container">
                               <div className="white-divider"></div>
                               <div className="heading">
-                                    <h2>Expéreince professionelle</h2>
+                                    <h2>Expérience professionelle</h2>
                               </div>
                               <ul className="timeline">
                                     <li>
@@ -68,6 +68,7 @@ export default function Experience() {
                                     </li>
                                     {/*-*/}
                                     <li>
+
                                           <div className="timeline-badge"><span className="iconify" data-icon="octicon:briefcase" data-inline="false"></span><FontAwesomeIcon icon={faAddressCard} size="xs" /></div>
                                           <div className="timeline-panel-container-inverted">
                                                 <div className="timeline-panel">

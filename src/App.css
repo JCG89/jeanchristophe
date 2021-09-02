@@ -96,6 +96,7 @@ nav ul li{
   padding-top: 50px;
   font-size: 50px;
   color: var(--primary-white);
+  text-shadow: 1px 1px 1px #000;
   z-index: 1;
 }
 @media screen and(max-width:768px){
@@ -168,7 +169,7 @@ nav ul li{
   }
 }
 
-/******style de la partie services******/
+/******style de la partie compétences******/
 
 .competences{
   
@@ -177,9 +178,9 @@ nav ul li{
 }
 .competences h1{
   color: var(--primary-orange);
-
   padding-bottom: 20px;
   border-bottom: 1px solid #f9ab00;
+  text-shadow: 1px 1px 1px #000;
   text-align: center;
 }
 .services h1:hover{
@@ -192,6 +193,7 @@ nav ul li{
 }
 .competences h3:hover{
 color: var(--primary-orange);
+text-shadow: 1px 1px 1px #000;
 }
 .tofs{
   background: var(--primary-white);
@@ -211,8 +213,8 @@ color: var(--primary-orange);
 .experience .heading h2{
   text-align: center;
   color: var(--primary-orange);
-  
   text-shadow: 1px 1px 1px #000;
+  text-transform: uppercase;
 }
 .timeline{
   padding: 30px 10px;
