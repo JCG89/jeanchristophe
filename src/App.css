@@ -210,7 +210,7 @@ color: var(--primary-orange);
 }
 .experience .heading h2{
   text-align: center;
-  color: var(--primary-white);
+  color: var(--primary-orange);
   
   text-shadow: 1px 1px 1px #000;
 }
@@ -249,7 +249,7 @@ color: var(--primary-orange);
   top: 16px;
   left: 50%;
   margin-left: -25px;
-  background-color: #ddd;
+  background-color: var(--primary-white);
   border-radius: 50%;
 }
 .timeline-panel-container{
