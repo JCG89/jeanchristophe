@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/heading-has-content */
 import React from 'react';
-import nocode from "./nocode.jpg";
-import backend from "./backend.jpg";
+import nocode from "./images/nocode.jpg";
+import backend from "./images/backend.jpg";
 
 
 

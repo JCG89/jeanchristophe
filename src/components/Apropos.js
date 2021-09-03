@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
-import jc from "./jc.jpg"
+import jc from "./images/jc.jpg"
 
 export default function Apropos() {
       return (
