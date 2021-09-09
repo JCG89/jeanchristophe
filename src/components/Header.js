@@ -5,11 +5,11 @@ export default function Header() {
       return (
             <div className="header-wrapper">
                   <div className="main-info">
-                        <h1> Jean Christophe Gomis </h1>
+                        <h1 clas> Jean Christophe Gomis </h1>
                         <Typed
                               className="typed-text"
-                              strings={["Développeur web &web mobile",
-                                    "HTML5 CSS3 JS PHP", "REACT, SYMFONY, REDUX, 5 WORDPRESS"]}
+                              strings={["Développeur Web & Web Mobile",
+                                    "Html5 Css3 Js Php", "React Symfony Redux  WordPress"]}
                               typeSpeed={40}
                               backSpeed={60}
                               loop

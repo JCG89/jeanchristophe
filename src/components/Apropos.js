@@ -15,7 +15,7 @@ export default function Apropos() {
                               </div>
                               <div className="col-lg-6 col-xm-12">
                                     <h1 className="apropos"> A propos de moi</h1>
-                                    <p>
+                                    <p className="parag">
                                           Je m'appelle Jean Christophe Gomis, je suis titulaire d'un DUT en développement web et web mobile classé au RNCP Niveau V .Issu d’un parcours sport-études au Sénégal, où j’ai fais
                                           mes premiers pas dans la technologie. J’ai ensuite
                                           embrassé une carrière de footballeur dans la LSFP (ligue

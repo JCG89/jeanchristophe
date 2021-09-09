@@ -7,6 +7,7 @@ import Header from "./components/Header";
 import Apropos from "./components/Apropos";
 import Competences from "./components/Competences";
 import Experience from "./components/Experience";
+import Portfolio from "./components/Portfolio";
 
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
       <Apropos />
       <Competences />
       <Experience />
+      <Portfolio />
     </>
   );
 }

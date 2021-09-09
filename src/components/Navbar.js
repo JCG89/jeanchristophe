@@ -1,9 +1,8 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import menu from "./menu.svg";
-
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 export default function Navbar() {
       return (
@@ -12,7 +11,7 @@ export default function Navbar() {
                   <div className="container">
                         <a className="navbar-brand" href="#">J C G</a>
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                              <span className="navbar-toggler-icon"><img src={menu} style={{ width: "50px", color: "#f9ab00" }} /></span>
+                              <FontAwesomeIcon className="icon-btn" icon={faBars} style={{ color: "#f9ab00" }} />
                         </button>
 
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">

@@ -17,16 +17,16 @@ export default function Competences() {
                                     <div className="col-lg-6 md-12 col-sm-12">
                                           <div className="box">
                                                 <h3>FRONT-END HTML5, CSS3, JS , REACT, REDUX</h3>
-                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, impedit.</p>
-                                                <img className="tofs" src={backend} alt="backend" style={{ width: "600px", borderRadius: "5px" }} />
+                                                <p className="p-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, impedit.</p>
+                                                <img className="tofs" src={backend} alt="backend" style={{ borderRadius: "5px" }} />
                                           </div>
                                     </div>
                                     {/*-*/}
                                     <div className="col-md-6 col-sm-12">
                                           <div className="box">
                                                 <h3>BACK-END, PHP SYMFONY NODEJS</h3>
-                                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, mollitia?</p>
-                                                <img src={nocode} alt="nocode" style={{ width: "600px", borderRadius: "5px" }} />
+                                                <p className="p-box">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, mollitia?</p>
+                                                <img className="tofs" src={nocode} alt="nocode" style={{ borderRadius: "5px" }} />
                                           </div>
                                     </div>
 
