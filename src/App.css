@@ -343,7 +343,6 @@ ul li{
 .timeline-heading h4{
   color: var(--primary-orange);
 }
-/******LES MEDIAS DE LA PARTIE EXPERIENCE************/
 
 /******STYLISATION DU COMPOSANT PORTFOLIO**********/
 
@@ -428,7 +427,7 @@ font-size: 1.5rem;
   }
   .main-info h1{
     width: 100%;
-    font-size: 1.25rem;
+    font-size: 3rem;
     margin-left: 1.25rem;
    padding-top: 0;
   }
@@ -448,7 +447,7 @@ font-size: 1.5rem;
     
   }
   .typed-text{
-    font-size: 0.5rem;
+    font-size: 2rem;
   }
   .tofs{
     width: 100%;
@@ -468,8 +467,18 @@ font-size: 1.5rem;
    margin-right: 1.25rem;
  }
 }
+.portfolio-image-popupbox{
+  width: 15rem;
+ 
+  align-self: center;
+}
+.portfolio-image-box:hover .overflow{
+  opacity: 40%;
+  transition: 0.4 ease-in-out;
+}
 
 @media(min-width:768px){
+  /****LA NAVBAR*****/
   nav{
     width: 100%;
     margin:0;
@@ -479,61 +488,131 @@ font-size: 1.5rem;
   }
   .main-info h1{
     width: 100%;
-    font-size: 1.875rem;
+    font-size: 4rem;
     margin-left: 1.25rem;
   }
+  /****APROPOS*****/
   .apropos{
     text-align: center;
+    
   }
   .parag{
     text-align: justify;
   }
+  /****COMPETENCES*****/
   .box h3{
     text-align: center;
+   
+    margin-top: 4rem;
+    width: 100%;
+
+
+  }
+  
+  .box{
+    width: 20rem;
+    align-self: auto;
+    margin-right: 0.3125rem;
   }
   .p-box{
     text-align: justify;
     margin-left: 0.9375rem;
     
   }
-  .typed-text{
-    font-size: 1.5625rem;
-  }
   .tofs{
     position: relative;
-    width: 700px;
+    width: 500px;
+    padding: 1rem;
+    border-radius: 0.625rem;
+    align-self: center;
   
   }
- .images-box-wrapper{
-   display: flex;
-   flex-direction: column;
-   padding-bottom: 0.3125rem;
-   
- }
- .portfolio-image-box{
-  width: 31rem;
-  padding: 0.3125rem;
-  margin: 0.3125rem ;
- 
- }
- .portfolio-image{
-   width: 33rem;
   
- }
- .overflow{
-   width: 33rem;
-   height: 33rem;
- }
- .portfolio-icon{
-   display: block;
-   z-index: 1;
- }
+  /****HEADER*****/
+  .typed-text{
+    font-size: 3rem;
+  }
+  
+  .images-box-wrapper{
+    display: flex;
+   flex-direction: row;
+  
+  }
+  .portfolio-image-box{
+    width: 15rem;
+    padding: 0.3125rem;
+    margin: 0.3125rem;
+   
+   
+   }
+   .portfolio-image{
+     width: 15rem;
+     position: absolute;
+     align-self: center;
+    
+   }
+   .overflow{
+     width: 15rem;
+     height: 15rem;
+   }
+   .portfolio-icon{
+     display: block;
+     z-index: 1;
+   }
+   .portfolio-icon{
+    position: absolute;
+    opacity: 1;
+    margin-left: 5rem;
+    margin-top: 4.5rem;
+    color: var(--primary-orange);
+    font-size: 1.5rem;
+    }
+    .portfolio-image-box:hover .portfolio-icon{
+      opacity: 70%;
+      transition: 0.4s ease-in-out;
+      cursor: pointer;
+    }
 }
+
 @media(min-width:1250px){
   .images-box-wrapper{
     display: flex;
    flex-direction: row;
-   align-self: stretch;
+  
   }
+  .portfolio-image-box{
+    width: 15rem;
+    padding: 0.3125rem;
+    align-self: center;
+
+   
+   
+   }
+   .portfolio-image{
+     width: 15rem;
+     position: absolute;
+    
+   }
+   .overflow{
+     width: 20rem;
+     height: 20rem;
+   }
+   .portfolio-icon{
+     display: block;
+     z-index: 1;
+   }
+   .portfolio-icon{
+    position: absolute;
+    opacity: 1;
+    margin-left: 10rem;
+    margin-top: 4.5rem;
+    color: var(--primary-orange);
+    font-size: 1.5rem;
+    }
+    .tofs{
+      padding: 1rem;
+      border-radius: 0.625rem;
+    }
+    
 }
 
