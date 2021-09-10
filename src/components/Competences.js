@@ -12,7 +12,7 @@ export default function Competences() {
 
                   <div className="py-5">
                         <div className="container">
-                              <h1>COMPETENCES</h1>
+                              <h1 className="titre">COMPETENCES</h1>
                               <div className="row">
                                     <div className="col-lg-6 md-12 col-sm-12">
                                           <div className="box">

@@ -220,29 +220,21 @@ nav{
   text-shadow: 1px 1px 1px #000;
   text-align: center;
 }
-.services h1:hover{
-  color: var(--primary-dark);
-}
+
 .competences h3{
   color: var(--primary-dark);
   padding-top: 20px;
   
 }
 .competences h3:hover{
-color: var(--primary-orange);
+color: var(--primary-grey);
 text-shadow: 1px 1px 1px #000;
 }
 .tofs{
   background: var(--primary-white);
   border-bottom: var(--primary-orange);
 }
-/*******LES MEDIAS DE LA PARTIE A PROPOS*********/
-@media screen and(max-width:500px){
-  .box img{
-    width: 300px;
-    margin: 10px;
-  }
-}
+
 /*******STYLISATION DE LA PAARTIE EXPERIENCE*********/
 .experience{
   background: var(--primary-grey); 
@@ -253,10 +245,16 @@ text-shadow: 1px 1px 1px #000;
   color: var(--primary-orange);
   text-shadow: 1px 1px 1px #000;
   text-transform: uppercase;
+  padding-top:1.25rem;
+  
+}
+.experience .heading h2:hover{
+  color: #ccd1d9;
 }
 .timeline{
   padding: 30px 10px;
   position: relative;
+  padding-bottom: 1.25rem;
 }
 .timeline::before{
  top: 0; 
@@ -311,6 +309,9 @@ text-shadow: 1px 1px 1px #000;
   position: relative;
   box-shadow: 0 1px 6px rgba(0,0,0,0.175);
   background: #fff;
+}
+.timeline-panel:hover{
+  background: #f9ab00;
 }
 ul li{
   list-style-type: none;
@@ -369,7 +370,7 @@ text-shadow: 1px 1px 1px #000;
 .overflow{
   position: absolute;
   opacity: 1;
-  background: var(--primary-black);
+  background: var(--primary-dark-grey);
   width: 20rem;
   height:20rem ;
   border-radius: 5px;
@@ -416,6 +417,7 @@ font-size: 1.5rem;
 @media(min-width:375px){
   body{
     margin: 0;
+    padding: 0;
     scroll-padding-right: 0;
   }
   nav{
@@ -456,18 +458,21 @@ font-size: 1.5rem;
  .images-box-wrapper{
    display: flex;
    flex-direction: column;
-   padding-bottom: 0.3125rem;
+   
    width: 100%;
  }
  .portfolio-image-box{
    align-self: center;
   
  }
+ .portfolio-image{
+   width: 20rem;
+   padding: 00.5rem;
+ }
  .icon-btn{
    margin-right: 1.25rem;
  }
-}
-.portfolio-image-popupbox{
+ .portfolio-image-popupbox{
   width: 15rem;
  
   align-self: center;
@@ -476,6 +481,14 @@ font-size: 1.5rem;
   opacity: 40%;
   transition: 0.4 ease-in-out;
 }
+.timeline-panel:hover{
+  background: #f9ab00;
+}
+
+}
+
+
+
 
 @media(min-width:768px){
   /****LA NAVBAR*****/
@@ -546,14 +559,14 @@ font-size: 1.5rem;
    
    }
    .portfolio-image{
-     width: 15rem;
+     width: 14rem;
      position: absolute;
      align-self: center;
     
    }
    .overflow{
-     width: 15rem;
-     height: 15rem;
+     width: 14rem;
+     height: 14rem;
    }
    .portfolio-icon{
      display: block;
@@ -572,30 +585,46 @@ font-size: 1.5rem;
       transition: 0.4s ease-in-out;
       cursor: pointer;
     }
+    .timeline-panel:hover{
+      background: #f9ab00;
+    }
 }
 
 @media(min-width:1250px){
   .images-box-wrapper{
     display: flex;
    flex-direction: row;
+   padding-top: 1.25rem;
   
   }
   .portfolio-image-box{
     width: 15rem;
     padding: 0.3125rem;
-    align-self: center;
+    margin-left: 4rem;
 
-   
-   
+    
+   }
+   .heading h2{
+    border-bottom:0.0625rem solid var(--primary-orange);
+    padding: 0.0625rem; 
+    padding-top: 1.25rem;
    }
    .portfolio-image{
      width: 15rem;
      position: absolute;
+     
     
    }
+   .portfolio-wrapper h1{
+     border-bottom:0.0625rem solid var(--primary-orange);
+     padding: 0.0625rem;
+   }
+   .portfolio-wrapper h1:hover{
+     color: #ccd1d9;
+   }
    .overflow{
-     width: 20rem;
-     height: 20rem;
+     width: 15rem;
+     height: 15rem;
    }
    .portfolio-icon{
      display: block;
@@ -604,14 +633,18 @@ font-size: 1.5rem;
    .portfolio-icon{
     position: absolute;
     opacity: 1;
-    margin-left: 10rem;
-    margin-top: 4.5rem;
+    margin-left: 7rem;
+    margin-top: 6rem;
     color: var(--primary-orange);
     font-size: 1.5rem;
     }
     .tofs{
       padding: 1rem;
       border-radius: 0.625rem;
+    }
+    .titre:hover{
+      color: var(--primary-grey);
+      
     }
     
 }
