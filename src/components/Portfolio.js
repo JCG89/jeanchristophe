@@ -9,7 +9,7 @@ import portfolio from "./images/portfolio.jpg";
 import taskManager from "./images/taskManager.jpeg";
 //import des icônes
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSearchPlus } from '@fortawesome/free-solid-svg-icons'
+import { faSearchPlus, faEye } from '@fortawesome/free-solid-svg-icons'
 //import de react popupbox 
 import { PopupboxManager, PopupboxContainer } from "react-popupbox";
 import "react-popupbox/dist/react-popupbox.css";
@@ -118,25 +118,25 @@ const Portfolio = () => {
                                     <div className="portfolio-image-box" onClick={openPopupboxNetflix} >
                                           <img src={netflix} alt="netflix" className="portfolio-image" />
                                           <div className="overflow"></div>
-                                          <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+                                          <FontAwesomeIcon className="portfolio-icon" icon={faEye} />
                                     </div>
                                     {/*-*/}
                                     <div className="portfolio-image-box" onClick={openPopupboxPortfolio}>
                                           <img src={portfolio} alt="city-guide" className="portfolio-image" />
                                           <div className="overflow"></div>
-                                          <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+                                          <FontAwesomeIcon className="portfolio-icon" icon={faEye} />
                                     </div>
                                     {/*-*/}
                                     <div className="portfolio-image-box" onClick={openPopupboxCityGuide}>
                                           <img src={CityGuide} alt="portfolio-imag" className="portfolio-image" />
                                           <div className="overflow"></div>
-                                          <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+                                          <FontAwesomeIcon className="portfolio-icon" icon={faEye} />
                                     </div>
                                     {/*-*/}
                                     <div className="portfolio-image-box" onClick={openPopupboxTaskManager}>
                                           <img src={taskManager} alt="taskmanager" className="portfolio-image" />
                                           <div className="overflow"></div>
-                                          <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+                                          <FontAwesomeIcon className="portfolio-icon" icon={faEye} />
                                     </div>
                               </div>
                         </div>

@@ -366,16 +366,32 @@ text-align: center;
 color: var(--primary-orange);
 text-shadow: 1px 1px 1px #000; 
 }
+/***STYLISATION DE CONTACT******/
+.contact{
+  background: var(--primary-light-grey);
+  position: relative;
+  top: 17rem;
+}
+.contact h1{
+  color: var(--primary-orange);
+  padding: 1.3rem 0;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #000; 
+}
+.contact h1:hover{
+  color: #ccd1d9;
+}
 /***********OVERFLOW*****/
 .overflow{
   position: absolute;
   opacity: 1;
-  background: var(--primary-dark-grey);
+  background: var(--primary-black);
   width: 20rem;
   height:20rem ;
   border-radius: 5px;
   top: 0;
-  border: 1px solid var(--primary-red);
+  border: 1px solid var(--primary-orange);
   cursor: pointer;
 }
 .portfolio-image-box:hover .overflow{

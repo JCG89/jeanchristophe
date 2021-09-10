@@ -8,6 +8,7 @@ import Apropos from "./components/Apropos";
 import Competences from "./components/Competences";
 import Experience from "./components/Experience";
 import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
 
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
       <Competences />
       <Experience />
       <Portfolio />
+      <Contact />
     </>
   );
 }
