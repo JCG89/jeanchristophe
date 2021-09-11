@@ -13,6 +13,9 @@
   --primary-dark-grey: #666666;
   --primary-grey: #ccd1d9;
   --primary-black: #000000;
+  --primary-grey-white:#dcf7f2;
+  --primary-maron:#d1a47e;
+  --primary-green: #0f6a2e;
 }
 
 body{
@@ -316,6 +319,10 @@ text-shadow: 1px 1px 1px #000;
 ul li{
   list-style-type: none;
 }
+.timeline-panel h4:hover{
+  color: var(--primary-grey-white);
+}
+
 .timeline-panel-container-inverted .timeline-panel{
   float: left;
   margin-left: 40px;
@@ -370,17 +377,75 @@ text-shadow: 1px 1px 1px #000;
 .contact{
   background: var(--primary-light-grey);
   position: relative;
-  top: 17rem;
+  top: 15rem;
 }
 .contact h1{
   color: var(--primary-orange);
   padding: 1.3rem 0;
-  text-align: center;
   text-transform: uppercase;
   text-shadow: 1px 1px 1px #000; 
 }
+.bouton{
+  width: 100%;
+  height: 3.125rem;
+  border-radius:0.625rem;
+  
+  color: var(--primary-orange);
+  box-shadow: var(--primary-black);
+}
+.bouton:hover{
+  background: var(--primary-red);
+}
 .contact h1:hover{
   color: #ccd1d9;
+}
+/***LES INPUTS**********/
+.contact input, .contact textarea{
+  width: 100%;
+  box-sizing: border-box;
+  background: none;
+  resize:none;
+  border: 0;
+  border-bottom: 0.125rem solid var(--primary-grey);
+  border-radius: 0;
+  color: var(--primary-orange);
+  outline: 0 !important;
+  box-shadow: none !important;
+ margin-bottom: 1.5rem;
+}
+.contact textarea{
+  height: 12.4rem;
+}
+.line{
+  position: relative;
+  top: -0.8rem;
+  width: 0;
+  height: 0.125rem;
+  background: var(--primary-orange);
+  display: inline-block;
+}
+input:focus+.line, textarea:focus+.line{
+  width: 100%;
+  transition: width 0.5s ease-in-out ;
+}
+input.form-control{
+  margin: -0.3rem 0;
+}
+textarea.form-control{
+  margin: -0.3rem 0;
+}
+.contact .container{
+  padding: 4rem 0;
+}
+.contact input:focus, .contact textarea:focus{
+  background: transparent;
+  color: var(--primary-orange);
+  border-bottom: 00.125rem solid var(--primary-grey);
+}
+.contact button{
+  margin-top: 2rem;
+  border: 0.0625rem solid var(--primary-orange);
+ 
 }
 /***********OVERFLOW*****/
 .overflow{
@@ -445,7 +510,7 @@ font-size: 1.5rem;
   }
   .main-info h1{
     width: 100%;
-    font-size: 3rem;
+    font-size: 2.7rem;
     margin-left: 1.25rem;
    padding-top: 0;
   }
@@ -565,12 +630,14 @@ font-size: 1.5rem;
   .images-box-wrapper{
     display: flex;
    flex-direction: row;
+   margin-right: 0.625rem;
   
   }
   .portfolio-image-box{
     width: 15rem;
     padding: 0.3125rem;
     margin: 0.3125rem;
+    margin-right:3rem;
    
    
    }
@@ -602,7 +669,10 @@ font-size: 1.5rem;
       cursor: pointer;
     }
     .timeline-panel:hover{
-      background: #f9ab00;
+      background: var(--primary-grey);
+    }
+    .contact .container{
+      padding: 0 1rem;
     }
 }
 
