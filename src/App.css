@@ -444,7 +444,7 @@ textarea.form-control{
 }
 .contact button{
   margin-top: 2rem;
-  border: 0.0625rem solid var(--primary-orange);
+  border: 0.0625rem solid var(--primary-grey);
  
 }
 /***********OVERFLOW*****/
@@ -564,6 +564,14 @@ font-size: 1.5rem;
 }
 .timeline-panel:hover{
   background: #f9ab00;
+}
+.contact input, .contact textarea{
+  border-bottom: 0.0625rem solid var(--primary-grey);
+  margin-left: 0.625rem;
+}
+.contact button{
+  width: 80%;
+  margin-left: 0.625rem;
 }
 
 }
