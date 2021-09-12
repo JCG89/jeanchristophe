@@ -187,6 +187,7 @@ nav{
   color: var(--primary-orange);
   text-transform: uppercase;
   text-align: justify;
+  border-bottom: 0.0625rem solid var(--primary-orange)
   
 }
 .apropos p{
@@ -201,6 +202,7 @@ nav{
   .apropos h1{
     text-align: center;
     font-size:10px ;
+   
   }
   .container py-5{
    width: 100%;
@@ -377,7 +379,7 @@ text-shadow: 1px 1px 1px #000;
 .contact{
   background: var(--primary-light-grey);
   position: relative;
-  top: 15rem;
+  top: 14.5rem;
 }
 .contact h1{
   color: var(--primary-orange);
@@ -510,9 +512,10 @@ font-size: 1.5rem;
   }
   .main-info h1{
     width: 100%;
-    font-size: 2.7rem;
+    font-size: 2.1rem;
     margin-left: 1.25rem;
    padding-top: 0;
+   margin-right: 0.3125rem;
   }
   
   .apropos{
@@ -568,10 +571,14 @@ font-size: 1.5rem;
 .contact input, .contact textarea{
   border-bottom: 0.0625rem solid var(--primary-grey);
   margin-left: 0.625rem;
+  margin-right:1.25rem;
 }
 .contact button{
   width: 80%;
   margin-left: 0.625rem;
+}
+.contact{
+  top: 10rem;
 }
 
 }
