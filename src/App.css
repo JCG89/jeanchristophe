@@ -21,6 +21,7 @@
 body{
   font-family: roboto condensed !important;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
   
 }
@@ -39,16 +40,14 @@ nav{
 
 }
 
-.container a{
-  color: var(--primary-orange)  !important;
-  font-size: 1.25rem;
-  font-weight: bold;
-  
-}
+
 .navbar-brand{
   max-width: 17.25rem;
   padding: 0 !important;
   height: 6rem !important;
+  color: var(--primary-orange)  !important;
+  font-size: 1.25rem;
+  font-weight: bold;
 }
 /**************LES MEDIAS DE LA NAVBAR***************/
 @media screen and(max-width:768px){
@@ -255,6 +254,7 @@ text-shadow: 1px 1px 1px #000;
 }
 .experience .heading h2:hover{
   color: #ccd1d9;
+  
 }
 .timeline{
   padding: 30px 10px;
@@ -379,13 +379,15 @@ text-shadow: 1px 1px 1px #000;
 .contact{
   background: var(--primary-light-grey);
   position: relative;
-  top: 15rem;
+  top: 18rem;
+  height: 31.25rem;
 }
 .contact h1{
   color: var(--primary-orange);
-  padding: 1.3rem 0;
+  padding: 1rem 0;
   text-transform: uppercase;
   text-shadow: 1px 1px 1px #000; 
+  border-bottom: 0.0625rem solid var(--primary-orange);
 }
 .bouton{
   width: 100%;
@@ -411,7 +413,7 @@ text-shadow: 1px 1px 1px #000;
 font-weight: 900;
 color: var(--primary-green);
 }
-/***LES INPUTS**********/
+/***LE FORMULAIRES DE CONTACT**********/
 .contact input, .contact textarea{
   width: 100%;
   box-sizing: border-box;
@@ -456,14 +458,42 @@ textarea.form-control{
   border-bottom: 00.125rem solid var(--primary-grey);
 }
 .contact button{
-  margin-top: 2rem;
+  margin-top: 1rem;
   border: 0.0625rem solid var(--primary-grey);
  
 }
 .contact form{
   background: var(--primary-white);
   border-radius: 0.625rem;
+  bottom: 1.rem;
+  top: 6rem;
+  position: relative;
+  height: 23rem;
 }
+/**********LE FOOTER**********/
+.footer{
+  background: var(--primary-dark-grey);
+  position: relative;
+  top: 18rem;
+  color: var(--primary-white);
+  }
+  .mx-3{
+    padding-top: 0.4rem;
+    border-radius: 180%;
+  }
+.footer a{
+  text-decoration: none;
+  color: var(--primary-grey);
+}
+.footer a:hover{
+  text-decoration: none;
+  color: var(--primary-orange);
+  cursor: pointer;
+}
+.footer p{
+  margin: 0;
+}
+
 /***********OVERFLOW*****/
 .overflow{
   position: absolute;
@@ -590,7 +620,22 @@ font-size: 1.5rem;
 }
 .contact button{
   width: 80%;
-  margin-left: 0.625rem;
+  margin-left: 1.5rem;
+  position: relative;
+  bottom: 1rem;
+ 
+}
+.contact{
+  height: 46rem;
+}
+.contact form{
+  top: 0rem;
+}
+.footer{
+  background: var(--primary-black);
+  position: relative;
+  top: 18rem;
+  color: var(--primary-white);
 }
 
 
@@ -702,6 +747,16 @@ font-size: 1.5rem;
     .contact .container{
       padding: 0 1rem;
     }
+    .contact form{
+      margin-left: 0.5rem;
+      top: 2.5rem;
+    }
+    .footer{
+      background: var(--primary-black);
+      top: 18rem;
+      color: var(--primary-white);
+    }
+    
 }
 
 @media(min-width:1250px){
