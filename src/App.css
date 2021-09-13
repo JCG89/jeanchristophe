@@ -7,7 +7,7 @@
   --primary-white: #fff;
   --primary-orange: #f9ab00;
   --primary-dark: rgba(52,59,6);
-  --primary-red:#9a123e;
+  --primary-red:#c60f46;
   --primary-yellow:#e7cd9c;
   --primary-light-grey: #f4f4f4;
   --primary-dark-grey: #666666;
@@ -379,7 +379,7 @@ text-shadow: 1px 1px 1px #000;
 .contact{
   background: var(--primary-light-grey);
   position: relative;
-  top: 14.5rem;
+  top: 15rem;
 }
 .contact h1{
   color: var(--primary-orange);
@@ -396,10 +396,15 @@ text-shadow: 1px 1px 1px #000;
   box-shadow: var(--primary-black);
 }
 .bouton:hover{
-  background: var(--primary-red);
+  background: var(--primary-orange);
+  color: var(--primary-white);
 }
 .contact h1:hover{
   color: #ccd1d9;
+}
+.error-message{
+  color: var(--primary-white);
+  background: var(--primary-red);
 }
 /***LES INPUTS**********/
 .contact input, .contact textarea{
@@ -448,6 +453,10 @@ textarea.form-control{
   margin-top: 2rem;
   border: 0.0625rem solid var(--primary-grey);
  
+}
+.contact form{
+  background: var(--primary-white);
+  border-radius: 0.625rem;
 }
 /***********OVERFLOW*****/
 .overflow{
@@ -577,9 +586,7 @@ font-size: 1.5rem;
   width: 80%;
   margin-left: 0.625rem;
 }
-.contact{
-  top: 10rem;
-}
+
 
 }
 

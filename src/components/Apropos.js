@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
-import jc from "./images/jc.jpg"
+import jeanchris from "./images/jeanchris.jpg"
 
 export default function Apropos() {
       return (
@@ -10,7 +10,7 @@ export default function Apropos() {
 
                               <div className="col-lg-6 col-xm-12">
                                     <div className="photo-wrap mb-5">
-                                          <img className="profile-img" src={jc} alt="photo" />
+                                          <img className="profile-img" src={jeanchris} alt="photo" />
                                     </div>
                               </div>
                               <div className="col-lg-6 col-xm-12">
