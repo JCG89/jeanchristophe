@@ -30,13 +30,14 @@ export default function Contact() {
       const sendEmail = (serviceID, templateID, variables, userID) => {
             emailjs.send(serviceID, templateID, variables, userID)
                   .then(() => {
-                        setSuccessMessage("Votre message est envoyé , Nous vous répondrez dans les meilleurs délais")
+                        setSuccessMessage("Votre message est envoyé! , Je reviendrai vers vous dans les meilleurs délais")
                   }).catch(err => console.error(`Une erreur s'est produite! ${err}`));
       }
       return (
             <div className="contact">
                   <div className="text-center">
                         <h1> Contactez-moi</h1>
+                        <div className="success-message">{successMessage}</div>
                   </div>
                   <div className="container">
                         <form onSubmit={handleSubmit(onSubmit)}>

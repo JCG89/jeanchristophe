@@ -7,7 +7,7 @@
   --primary-white: #fff;
   --primary-orange: #f9ab00;
   --primary-dark: rgba(52,59,6);
-  --primary-red:#c60f46;
+  --primary-red:#f70d53;
   --primary-yellow:#e7cd9c;
   --primary-light-grey: #f4f4f4;
   --primary-dark-grey: #666666;
@@ -405,6 +405,11 @@ text-shadow: 1px 1px 1px #000;
 .error-message{
   color: var(--primary-white);
   background: var(--primary-red);
+  margin-left: 0.625rem;
+}
+.success-message{
+font-weight: 900;
+color: var(--primary-green);
 }
 /***LES INPUTS**********/
 .contact input, .contact textarea{
@@ -419,6 +424,7 @@ text-shadow: 1px 1px 1px #000;
   outline: 0 !important;
   box-shadow: none !important;
  margin-bottom: 1.5rem;
+ font-size: 0.9375rem;
 }
 .contact textarea{
   height: 12.4rem;
