@@ -16,7 +16,7 @@ export default function Competences() {
                               <div className="row">
                                     <div className="col-lg-6 md-12 col-sm-12">
                                           <div className="box">
-                                                <h3 id="box">FRONT-END HTML5, CSS3, JS , REACT, REDUX</h3>
+                                                <h3 id="box">FRONT-END: HTML5, CSS3, JS , REACT, REDUX</h3>
                                                 <p className="p-box">Je vous accompagne pour la création de vôtre site depuis la mise en place  de la maquette a vôtre goût avec des outils comme figma ou adobe xd.
                                                       Après avoir conçu la maquette nous passons à son intégration avec les langages comme HTML & CSS , JAVASCRIPT et son Framework REACT , pour le plaisir des visiteurs .
                                                       <ul>
@@ -35,7 +35,7 @@ export default function Competences() {
                                     {/*-*/}
                                     <div className="col-md-6 col-sm-12">
                                           <div className="box">
-                                                <h3 id="box">BACK-END, PHP SYMFONY NODEJS</h3>
+                                                <h3 id="box">BACK-END: PHP SYMFONY NODEJS</h3>
                                                 <p className="p-box">En tant que développeur backend ,
                                                       je participe à la création et à  la gestion de votre base de données .
                                                       C’est la partie  non visible de votre site et le cœur du système.

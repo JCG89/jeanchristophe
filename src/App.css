@@ -565,7 +565,7 @@ font-size: 1.5rem;
  
   body{
     padding: 0;
-    margin:0;
+    margin:0 !important;
     top: 0;
     right: 0 fixed;
     left: 0;
@@ -723,13 +723,22 @@ font-size: 1.5rem;
     
   }
   .tofs{
+    width: 100%;
     position: relative;
-    width: 500px;
+    width: 31.25rem;
     padding: 1rem;
     border-radius: 0.625rem;
-    align-self: center;
-  
-  }
+    margin-left: 6.5rem;
+ }
+ .p-box{
+  width: 31.25rem;
+  margin-left: 6.5rem;
+  padding-top: 2rem;
+ }
+ #box{
+  width: 31.25rem;
+  margin-left: 6.5rem;
+ }
   
   /****HEADER*****/
   .typed-text{

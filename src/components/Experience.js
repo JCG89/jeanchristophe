@@ -18,14 +18,15 @@ export default function Experience() {
                                           <div className="timeline-panel-container">
                                                 <div className="timeline-panel">
                                                       <div className="timeline-heading">
-                                                            <h3>Magic Rambo</h3>
-                                                            <h4>Operateur de Production</h4>
-                                                            <p className="text-muted"><small className="far fa-calendar-alt"><FontAwesomeIcon icon={faCalendarCheck} size="xs" /></small>2019-2020</p>
+                                                            <h3>FSF</h3>
+                                                            <h4>FOOTBALLEUR</h4>
                                                       </div>
                                                       <div className="timeline-body">
-                                                            <p><small className="far fa-calendar-check"><FontAwesomeIcon icon={faCalendarCheck} size="xs" /></small> 2019-2020 Gestion de stock et de la logistique</p>
-                                                            <p><small className="far fa-calendar-check"><FontAwesomeIcon icon={faCalendarCheck} size="xs" /></small> 2019-2020 Gestion de stock et de la logistique</p>
-                                                            <p><small className="far fa-calendar-check"><FontAwesomeIcon icon={faCalendarCheck} size="xs" /></small> 2019-2020 Gestion de stock et de la logistique</p>
+                                                            <p><small className="far fa-calendar-check"><FontAwesomeIcon icon={faCalendarCheck} size="xs" /></small><b>   - 2006</b>  As douanes </p>
+                                                            <p><small className="far fa-calendar-check"><FontAwesomeIcon icon={faCalendarCheck} size="xs" /></small> <b>  - 2006-2007</b> As Cambérène</p>
+                                                            <p><small className="far fa-calendar-check"><FontAwesomeIcon icon={faCalendarCheck} size="xs" /></small> <b>  - 2007-2008</b> Linguère de St-Louis
+                                                            </p>
+                                                            <p><small className="far fa-calendar-check"><FontAwesomeIcon icon={faCalendarCheck} size="xs" /></small> <b> - 2008-2014 </b> As douanes</p>
                                                       </div>
                                                 </div>
                                           </div>
@@ -36,14 +37,14 @@ export default function Experience() {
                                           <div className="timeline-panel-container-inverted">
                                                 <div className="timeline-panel">
                                                       <div className="timeline-heading">
-                                                            <h3>Magic Rambo</h3>
-                                                            <h4>Operateur de Production</h4>
-                                                            <p className="text-muted"><small className="far fa-calendar-alt"><FontAwesomeIcon icon={faCalendarCheck} size="xs" /></small> 2019-2020</p>
+                                                            <h3>COMMERCANT A MON COMPTE</h3>
+                                                            <h4>PRÊT A PORTER</h4>
+                                                            <p className="text-muted"><small className="far fa-calendar-alt"><FontAwesomeIcon icon={faCalendarCheck} size="xs" /></small> <b> - 2014-2017</b></p>
                                                       </div>
                                                       <div className="timeline-body">
-                                                            <p><small className="far fa-calendar-check"><FontAwesomeIcon icon={faCalendarCheck} size="xs" /></small> 2019-2020 Gestion de stock et de la logistique</p>
-                                                            <p><small className="far fa-calendar-check"><FontAwesomeIcon icon={faCalendarCheck} size="xs" /></small> 2019-2020 Gestion de stock et de la logistique</p>
-                                                            <p><small className="far fa-calendar-check"><FontAwesomeIcon icon={faCalendarCheck} size="xs" /></small> 2019-2020 Gestion de stock et de la logistique</p>
+                                                            <p><small className="far fa-calendar-check"><FontAwesomeIcon icon={faCalendarCheck} size="xs" /></small> - Vente de sac à main et montres au détail </p>
+                                                            <p><small className="far fa-calendar-check"><FontAwesomeIcon icon={faCalendarCheck} size="xs" /></small> - Export prêt à porter pour Homme & Femme </p>
+                                                            <p><small className="far fa-calendar-check"><FontAwesomeIcon icon={faCalendarCheck} size="xs" /></small> - interpréte pour commerçants étrangers à Istanbul</p>
                                                       </div>
                                                 </div>
                                           </div>
@@ -54,14 +55,14 @@ export default function Experience() {
                                           <div className="timeline-panel-container">
                                                 <div className="timeline-panel">
                                                       <div className="timeline-heading">
-                                                            <h3>Magic Rambo</h3>
-                                                            <h4>Operateur de Production</h4>
-                                                            <p className="text-muted"><small className="far fa-calendar-alt"><FontAwesomeIcon icon={faCalendarCheck} size="xs" /></small> 2019-2020</p>
+                                                            <h3>VENDEUR GERANT</h3>
+                                                            <h4>VIVAL BY CASINO</h4>
+                                                            <p className="text-muted"><small className="far fa-calendar-alt"><FontAwesomeIcon icon={faCalendarCheck} size="xs" /></small><b> - 2017-2019</b></p>
                                                       </div>
                                                       <div className="timeline-body">
-                                                            <p><small className="far fa-calendar-check"><FontAwesomeIcon icon={faCalendarCheck} size="xs" /></small> 2019-2020 Gestion de stock et de la logistique</p>
-                                                            <p><small className="far fa-calendar-check"><FontAwesomeIcon icon={faCalendarCheck} size="xs" /></small> 2019-2020 Gestion de stock et de la logistique</p>
-                                                            <p><small className="far fa-calendar-check"><FontAwesomeIcon icon={faCalendarCheck} size="xs" /></small> 2019-2020 Gestion de stock et de la logistique</p>
+                                                            <p><small className="far fa-calendar-check"><FontAwesomeIcon icon={faCalendarCheck} size="xs" /></small> - Gestion de stock et de la logistique</p>
+                                                            <p><small className="far fa-calendar-check"><FontAwesomeIcon icon={faCalendarCheck} size="xs" /></small> - Reception et vérication des marchandises</p>
+                                                            <p><small className="far fa-calendar-check"><FontAwesomeIcon icon={faCalendarCheck} size="xs" /></small> - Conseil, orientation de la clientéle et encaissement</p>
                                                       </div>
                                                 </div>
                                           </div>
@@ -73,14 +74,14 @@ export default function Experience() {
                                           <div className="timeline-panel-container-inverted">
                                                 <div className="timeline-panel">
                                                       <div className="timeline-heading">
-                                                            <h3>Magic Rambo</h3>
-                                                            <h4>Operateur de Production</h4>
-                                                            <p className="text-muted"><small className="far fa-calendar-alt"><FontAwesomeIcon icon={faCalendarCheck} size="xs" /></small> 2019-2020</p>
+                                                            <h3>MAGIC RAMBO DISNEYLAND PARIS</h3>
+                                                            <h4>OPERATEUR DE PRODUCTION</h4>
+                                                            <p className="text-muted"><small className="far fa-calendar-alt"><FontAwesomeIcon icon={faCalendarCheck} size="xs" /></small> <b> 2019-2020 </b></p>
                                                       </div>
                                                       <div className="timeline-body">
-                                                            <p><small className="far fa-calendar-check"><FontAwesomeIcon icon={faCalendarCheck} size="xs" /></small> 2019-2020 Gestion de stock et de la logistique</p>
-                                                            <p><small className="far fa-calendar-check"><FontAwesomeIcon icon={faCalendarCheck} size="xs" /></small> 2019-2020 Gestion de stock et de la logistique</p>
-                                                            <p><small className="far fa-calendar-check"><FontAwesomeIcon icon={faCalendarCheck} size="xs" /></small> 2019-2020 Gestion de stock et de la logistique</p>
+                                                            <p><small className="far fa-calendar-check"><FontAwesomeIcon icon={faCalendarCheck} size="xs" /></small> - Préparation et distribution du matériel </p>
+                                                            <p><small className="far fa-calendar-check"><FontAwesomeIcon icon={faCalendarCheck} size="xs" /></small> - Réception, entretient et gestion du stock </p>
+                                                            <p><small className="far fa-calendar-check"><FontAwesomeIcon icon={faCalendarCheck} size="xs" /></small> -Conseil de la clientéle intervention en cas d'urgence logistique</p>
                                                       </div>
                                                 </div>
                                           </div>
