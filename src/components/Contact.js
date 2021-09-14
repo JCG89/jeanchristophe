@@ -34,7 +34,7 @@ export default function Contact() {
                   }).catch(err => console.error(`Une erreur s'est produite! ${err}`));
       }
       return (
-            <div className="contact">
+            <div id="contact" className="contact">
                   <div className="text-center">
                         <h1> Contactez-moi</h1>
                         <div className="success-message">{successMessage}</div>

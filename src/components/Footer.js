@@ -14,14 +14,7 @@ export default function Footer() {
                   <div className="footer">
                         <div className="container">
                               <div className="row">
-                                    <div className="col-lg-4 col-md-6 col-sm-6">
-                                          <div className="d-flex">
-                                                <a href="0621456056">Tél: 06 21 45 60 56</a>
-                                          </div>
-                                          <div className="d-flex">
-                                                <p>christophegomis89@gmail.com</p>
-                                          </div>
-                                    </div>
+
                                     <div className="col-lg-3 col-md-2 col-sm-6">
                                           <div className="row">
                                                 <div className="col">
@@ -58,7 +51,7 @@ export default function Footer() {
                                                       </LinkedinShareButton>
                                                       <p className="pt-3 text-center">
                                                             Copyright&copy;
-                                                            {new Date().getFullYear()}&nbsp;Jean Christophe Gomis | Tous droits réservés
+                                                            {new Date().getFullYear()}&nbsp;Jean Christophe Gomis | Tous droits réservés.
                                                       </p>
                                                 </div>
                                           </div>

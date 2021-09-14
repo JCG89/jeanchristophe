@@ -8,7 +8,7 @@ import backend from "./images/backend.jpg";
 
 export default function Competences() {
       return (
-            <div className="competences">
+            <div id="competences" className="competences">
 
                   <div className="py-5">
                         <div className="container">

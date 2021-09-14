@@ -4,7 +4,7 @@ import jeanchris from "./images/jeanchris.jpg"
 
 export default function Apropos() {
       return (
-            <>
+            <div id="apropos">
                   <div className="container py-5">
                         <div className="row">
 
@@ -36,7 +36,7 @@ export default function Apropos() {
 
                   </div>
 
-            </>
+            </div>
       )
 }
 

@@ -85,7 +85,7 @@ nav{
   background: url(components/images/bureau.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 
 }
 .main-info{
@@ -369,6 +369,9 @@ ul li{
 .images-box-wrapper{
   display: flex;
 }
+.portfolio-wrapper{
+  height: 35rem;
+}
 .portfolio-wrapper h1{
 
 text-align: center;
@@ -388,6 +391,7 @@ text-shadow: 1px 1px 1px #000;
   text-transform: uppercase;
   text-shadow: 1px 1px 1px #000; 
   border-bottom: 0.0625rem solid var(--primary-orange);
+  
 }
 .bouton{
   width: 100%;
@@ -551,9 +555,30 @@ font-size: 1.5rem;
   nav{
     width: 100%;
     margin:0;
+    padding: 0;
+    height: 7.5rem;
+  }
+ 
+  body{
+   padding-top: 7rem;
   }
   .navbar-nav{
     margin-left: 0.625rem;
+  }
+  .contact{
+    padding-top: 12rem;
+  }
+  .competences{
+    padding-top: 12rem;
+  }
+  #portfolio{
+    padding-top: 12rem;
+  }
+  .experience{
+    padding-top: 12rem;
+  }
+  .typed-text{
+    text-transform: uppercase;
   }
   .main-info h1{
     width: 100%;
@@ -561,6 +586,9 @@ font-size: 1.5rem;
     margin-left: 1.25rem;
    padding-top: 0;
    margin-right: 0.3125rem;
+  }
+  .header-wrapper{
+    height: 100vh;
   }
   
   .apropos{
@@ -698,19 +726,19 @@ font-size: 1.5rem;
   /****HEADER*****/
   .typed-text{
     font-size: 3rem;
+    text-transform: uppercase;
   }
   
   .images-box-wrapper{
     display: flex;
    flex-direction: row;
-   margin-right: 0.625rem;
+   left: 1.25rem;
+  
   
   }
   .portfolio-image-box{
     width: 15rem;
-    padding: 0.3125rem;
-    margin: 0.3125rem;
-    margin-right:3rem;
+    
    
    
    }

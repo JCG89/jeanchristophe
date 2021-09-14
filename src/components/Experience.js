@@ -6,7 +6,7 @@ export default function Experience() {
       return (
             <>
 
-                  <section className="experience">
+                  <div id="experience" className="experience">
                         <div className="container">
                               <div className="white-divider"></div>
                               <div className="heading">
@@ -89,7 +89,7 @@ export default function Experience() {
                               </ul>
                         </div>
 
-                  </section>
+                  </div>
 
 
             </>
