@@ -22,6 +22,8 @@ body{
   font-family: roboto condensed !important;
   margin: 0;
   padding: 0;
+  left: 0;
+  right: 0;
   box-sizing: border-box;
   
 }
@@ -229,6 +231,7 @@ nav{
   color: var(--primary-dark);
   padding-top: 20px;
   
+  
 }
 .competences h3:hover{
 color: var(--primary-grey);
@@ -237,6 +240,7 @@ text-shadow: 1px 1px 1px #000;
 .tofs{
   background: var(--primary-white);
   border-bottom: var(--primary-orange);
+  
 }
 
 /*******STYLISATION DE LA PAARTIE EXPERIENCE*********/
@@ -840,12 +844,23 @@ font-size: 1.5rem;
     font-size: 1.5rem;
     }
     .tofs{
+      width: 37.5rem;
       padding: 1rem;
       border-radius: 0.625rem;
+    }
+    .p-box{
+      width: 37rem;
+      padding-top: 2rem;
     }
     .titre:hover{
       color: var(--primary-grey);
       
+    }
+    #box{
+      font-weight: 600;
+      width: 37rem;
+      right: 2rem;
+      padding-top: 5rem;
     }
     
 }
