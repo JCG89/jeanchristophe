@@ -18,8 +18,8 @@ export default function Experience() {
                                           <div className="timeline-panel-container">
                                                 <div className="timeline-panel">
                                                       <div className="timeline-heading">
-                                                            <h3>FSF</h3>
-                                                            <h4>FOOTBALLEUR</h4>
+                                                            <h5>FSF</h5>
+                                                            <h6>FOOTBALLEUR</h6>
                                                       </div>
                                                       <div className="timeline-body">
                                                             <p><small className="far fa-calendar-check"><FontAwesomeIcon icon={faCalendarCheck} size="xs" /></small><b>   - 2006</b>  As douanes </p>
@@ -37,8 +37,8 @@ export default function Experience() {
                                           <div className="timeline-panel-container-inverted">
                                                 <div className="timeline-panel">
                                                       <div className="timeline-heading">
-                                                            <h3>COMMERCANT A MON COMPTE</h3>
-                                                            <h4>PRÊT A PORTER</h4>
+                                                            <h5>COMMERCANT A MON COMPTE</h5>
+                                                            <h6>PRÊT A PORTER</h6>
                                                             <p className="text-muted"><small className="far fa-calendar-alt"><FontAwesomeIcon icon={faCalendarCheck} size="xs" /></small> <b> - 2014-2017</b></p>
                                                       </div>
                                                       <div className="timeline-body">
@@ -55,8 +55,8 @@ export default function Experience() {
                                           <div className="timeline-panel-container">
                                                 <div className="timeline-panel">
                                                       <div className="timeline-heading">
-                                                            <h3>VENDEUR GERANT</h3>
-                                                            <h4>VIVAL BY CASINO</h4>
+                                                            <h5>VENDEUR GERANT</h5>
+                                                            <h6>VIVAL BY CASINO</h6>
                                                             <p className="text-muted"><small className="far fa-calendar-alt"><FontAwesomeIcon icon={faCalendarCheck} size="xs" /></small><b> - 2017-2019</b></p>
                                                       </div>
                                                       <div className="timeline-body">
@@ -74,8 +74,8 @@ export default function Experience() {
                                           <div className="timeline-panel-container-inverted">
                                                 <div className="timeline-panel">
                                                       <div className="timeline-heading">
-                                                            <h3>MAGIC RAMBO DISNEYLAND PARIS</h3>
-                                                            <h4>OPERATEUR DE PRODUCTION</h4>
+                                                            <h5>MAGIC RAMBO DISNEYLAND PARIS</h5>
+                                                            <h6>OPERATEUR DE PRODUCTION</h6>
                                                             <p className="text-muted"><small className="far fa-calendar-alt"><FontAwesomeIcon icon={faCalendarCheck} size="xs" /></small> <b> 2019-2020 </b></p>
                                                       </div>
                                                       <div className="timeline-body">
