@@ -20,7 +20,7 @@ const Portfolio = () => {
             const content = (
                   <div>
                         <img className="portfolio-image-popupbox" src={netflix} alt="projet netflix" />
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p><b>Site e-commerce réalisé avec Symfony 5</b>.</p>
                         <b>Github:</b><a className="hyper-link"
                               onClick={() => window.open("https://github.com/christophegomis89/awara-boutique")} >
                               https://github.com/christophegomis89/awara-boutique</a>
@@ -46,8 +46,8 @@ const Portfolio = () => {
 
                         <img className="portfolio-image-popupbox"
                               src={portfolio} alt="projet portfolio" />
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <b>Github:</b><a className="hyper-link" onClick={() => window.open("https://github.com/christophegomis89/cv-jean-christophe-gomis")} > https://github.com/christophegomis89/cv-jean-christophe-gomis</a>
+                        <p><b>Mon portfolio en React</b>.</p>
+                        <b>Github:</b><a className="hyper-link" onClick={() => window.open("https://gsportnews.fr")} > https://gsportnews.fr</a>
                   </div>
             )
 
@@ -68,7 +68,7 @@ const Portfolio = () => {
             const content = (
                   <div>
                         <img className="portfolio-image-popupbox" src={CityGuide} alt="projet portfolio" />
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p><b>Projet bande déssinées en Symfony 5</b></p>
                         <b>Github:</b><a className="hyper-link"
                               onClick={() => window.open("https://github.com/christophegomis89/projet-symfony-afpa")} > https://github.com/christophegomis89/projet-symfony-afpa</a>
                   </div>
@@ -91,7 +91,7 @@ const Portfolio = () => {
             const content = (
                   <div>
                         <img className="portfolio-image-popupbox" src={taskManager} alt="sml semedo" />
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p><b>Site vitrine de SMBLSEMEDO entreprise de BTP</b></p>
                         <b>Github:</b><a className="hyper-link" onClick={() => window.open("https://smblsemedo.com")} > https://smblsemedo.com</a>
                   </div>
             )
@@ -101,7 +101,7 @@ const Portfolio = () => {
       const popupboxConfigTaskmanager = {
             titleBar: {
                   enable: true,
-                  text: "Site vitrine de la société de BTP smblsemedo"
+                  text: ""
             },
             fadeIn: true,
             fadeInSpeed: 1000

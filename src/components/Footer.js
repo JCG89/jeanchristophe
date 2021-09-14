@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link } from "react-scroll";
 import {
       TwitterShareButton,
       TwitterIcon,
@@ -18,18 +18,18 @@ export default function Footer() {
                                     <div className="col-lg-3 col-md-2 col-sm-6">
                                           <div className="row">
                                                 <div className="col">
-                                                      <a href="" className="footer-n">Accueil</a>
+                                                      <Link smooth={true} to="jcg" href="" className="footer-n">Accueil</Link>
                                                       <br />
-                                                      <a href="" className="footer-nav">Experience</a>
+                                                      <Link smooth={true} to="experience" href="" className="footer-nav">Experience</Link>
                                                       <br />
-                                                      <a href="" className="footer-nav">Portfolio</a>
+                                                      <Link smooth={true} to="portfolio" href="" className="footer-nav">Portfolio</Link>
                                                 </div>
                                                 <div className="col">
-                                                      <a href="" className="footer-nav">A propos</a>
+                                                      <Link smooth={true} to="apropos" href="" className="footer-nav">A propos</Link>
                                                       <br />
-                                                      <a href="" className="footer-nav">Competences</a>
+                                                      <Link smooth={true} to="competences" href="" className="footer-nav">Competences</Link>
                                                       <br />
-                                                      <a href="" className="footer-nav">Contact</a>
+                                                      <Link smooth={true} to="contact" href="" className="footer-nav">Contact</Link>
                                                 </div>
                                           </div>
 
