@@ -790,6 +790,32 @@ font-size: 1.5rem;
     }
     
 }
+/*************laptop1*******/
+@media(min-width:1024px){
+  #box{
+    font-weight: 200;
+    width: 25rem;
+    margin: 0.0625rem;
+    padding-top: 1rem;
+    
+  }
+  .p-box{
+    width: 28rem;
+    font-size: 0.9375rem;
+    margin: 0.0625rem;
+   
+  }
+  
+  .tofs{
+    width: 28rem;
+    padding:1rem;
+    border-radius: 0.625rem;
+    margin: 0.0625rem;
+    
+    
+  }
+
+}
 
 @media(min-width:1250px){
   .images-box-wrapper{
@@ -844,12 +870,12 @@ font-size: 1.5rem;
     font-size: 1.5rem;
     }
     .tofs{
-      width: 37.5rem;
+      width: 40rem;
       padding: 1rem;
       border-radius: 0.625rem;
     }
     .p-box{
-      width: 37rem;
+      width: 40rem;
       padding-top: 2rem;
     }
     .titre:hover{

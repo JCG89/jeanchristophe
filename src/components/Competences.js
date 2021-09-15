@@ -19,14 +19,13 @@ export default function Competences() {
                                                 <h3 id="box">FRONT-END: HTML5, CSS3, JS , REACT, REDUX</h3>
                                                 <p className="p-box">Je vous accompagne pour la création de vôtre site depuis la mise en place  de la maquette a vôtre goût avec des outils comme figma ou adobe xd.
                                                       Après avoir conçu la maquette nous passons à son intégration avec les langages comme HTML & CSS , JAVASCRIPT et son Framework REACT , pour le plaisir des visiteurs .
-                                                      <ul>
-                                                            <li><b>- Assembler les pages en HTML5 et CSS3 à partir
-                                                                  de maquettes graphiques ;</b></li>
-                                                            <li><b>- Intégrer des contenus textes, images, sons,
-                                                                  vidéo dans le code HTML5</b></li>
-                                                            <li><b>- Respecter les normes d’accessibilité et de
-                                                                  référencement du W3C ;</b></li>
-                                                      </ul>
+
+                                                      <li><b>Assembler les pages en HTML5 et CSS3 à partir
+                                                            de maquettes graphiques ;</b></li>
+                                                      <li><b>Intégrer des contenus textes, images, sons,
+                                                            vidéo dans le code HTML5</b></li>
+                                                      <li><b>Respecter les normes d’accessibilité et de
+                                                            référencement du W3C ;</b></li>
 
                                                 </p>
                                                 <img className="tofs" src={backend} alt="backend" style={{ borderRadius: "5px" }} />
@@ -35,18 +34,18 @@ export default function Competences() {
                                     {/*-*/}
                                     <div className="col-md-6 col-sm-12">
                                           <div className="box">
-                                                <h3 id="box">BACK-END: PHP SYMFONY NODEJS</h3>
+                                                <h3 id="box">BACK-END: PHP SYMFONY NODEJS SGBD</h3>
                                                 <p className="p-box">En tant que développeur backend ,
                                                       je participe à la création et à  la gestion de votre base de données .
                                                       C’est la partie  non visible de votre site et le cœur du système.
                                                       Je conçois les éléments techniques nécessaires au fonctionnement  du site ,
                                                       avec les langages  tels que PHP et son framework Symfony ou NODEJS.
-                                                      <ul>
-                                                            <li><b>- Conception et évolution de l’infrastructure d’un site web</b></li>
-                                                            <li><b>- Architecture et développement de la plateforme de gestion des contenus</b></li>
-                                                            <li><b>- Développement de solutions et d’applications web</b></li>
-                                                      </ul>
+                                                      <li><b>Conception et évolution de l’infrastructure d’un site web dynamique</b></li>
+                                                      <li><b>Architecture et développement de la plateforme de gestion des contenus</b></li>
+                                                      <li><b>Développement de solutions et d’applications web</b></li>
+                                                      <li><b>Modélisation et Gestion de la base de données</b></li>
                                                 </p>
+
                                                 <img className="tofs" src={nocode} alt="nocode" style={{ borderRadius: "5px" }} />
                                           </div>
                                     </div>
