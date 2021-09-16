@@ -32,7 +32,7 @@ export default function Competences() {
                                           </div>
                                     </div>
                                     {/*-*/}
-                                    <div className="col-md-6 col-sm-12">
+                                    <div className="col-lg6 col-md-6 col-sm-12">
                                           <div className="box">
                                                 <h3 id="box">BACK-END: PHP SYMFONY NODEJS SGBD</h3>
                                                 <p className="p-box">En tant que développeur backend ,
@@ -43,7 +43,7 @@ export default function Competences() {
                                                       <li><b>Conception et évolution de l’infrastructure d’un site web dynamique</b></li>
                                                       <li><b>Architecture et développement de la plateforme de gestion des contenus</b></li>
                                                       <li><b>Développement de solutions et d’applications web</b></li>
-                                                      <li><b>Modélisation et Gestion de la base de données</b></li>
+
                                                 </p>
 
                                                 <img className="tofs" src={nocode} alt="nocode" style={{ borderRadius: "5px" }} />

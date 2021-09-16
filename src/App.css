@@ -1,4 +1,10 @@
-
+*, ::after, ::before{
+  margin: 0;
+  padding: 0;
+ margin-left:0;
+  margin-right: 0;
+  box-sizing: border-box;
+}
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
@@ -375,6 +381,7 @@ bottom: 0;
   position: relative;
   top: 18rem;
   height: 31.25rem;
+  
 }
 .contact h1{
   color: var(--primary-orange);
@@ -538,10 +545,12 @@ font-size: 1.5rem;
 /*****LES MEDIAS QUERIES*****/
 
 @media(min-width:375px){
-  body{
-    margin: 0 !important;
-    padding: 0 !important;
-    scroll-padding-right: 0;
+  *, ::after, ::before{
+    margin: 0;
+    padding: 0;
+   margin-left:0;
+    margin-right: 0;
+    box-sizing: border-box;
   }
   nav{
     width: 100%;
@@ -578,6 +587,9 @@ font-size: 1.5rem;
   }
   .header-wrapper{
     height: 100vh;
+  }
+  .contact{
+    height: 90vh;
   }
   
   .apropos{
@@ -794,30 +806,31 @@ font-size: 1.5rem;
 @media(min-width:1024px){
   #box{
     font-weight: 200;
-    width: 25rem;
     margin: 0.0625rem;
-    padding-top: 1rem;
+    
     
   }
   .p-box{
     width: 28rem;
     font-size: 0.9375rem;
     margin: 0.0625rem;
-   
   }
   
   .tofs{
     width: 28rem;
-    padding:1rem;
+    padding-top:1rem !;
     border-radius: 0.625rem;
     margin: 0.0625rem;
-    
-    
+    top: 1rem;
+   
+  }
+  .images-box-wrapper{
+    align-items: center;
   }
 
 }
 
-@media(min-width:1250px){
+@media(min-width:1440px){
   .images-box-wrapper{
     display: flex;
    flex-direction: row;
@@ -871,7 +884,7 @@ font-size: 1.5rem;
     }
     .tofs{
       width: 40rem;
-      padding: 1rem;
+      
       border-radius: 0.625rem;
     }
     .p-box{
