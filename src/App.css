@@ -102,7 +102,7 @@ nav{
  
   border: 0.1875rem solid var(--primary-white) ;
 }
-@media(max-width:600px){
+@media(max-width:425px){
     .navbar-brand{
     width:100% !important;
     display: block;
