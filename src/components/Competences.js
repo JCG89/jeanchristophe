@@ -14,7 +14,7 @@ export default function Competences() {
                         <div className="container">
                               <h1 className="titre">COMPETENCES</h1>
                               <div className="row">
-                                    <div className="col-lg-6 md-12 col-sm-12">
+                                    <div className="col-lg-6 md-6 col-sm-12">
                                           <div className="box">
                                                 <h3 id="box">FRONT-END: HTML5, CSS3, JS , REACT, REDUX</h3>
                                                 <p className="p-box">Je vous accompagne pour la création de vôtre site depuis la mise en place  de la maquette a vôtre goût avec des outils comme figma ou adobe xd.
@@ -32,7 +32,7 @@ export default function Competences() {
                                           </div>
                                     </div>
                                     {/*-*/}
-                                    <div className="col-lg6 col-md-6 col-sm-12">
+                                    <div className="col-lg-6 md-6 col-sm-12">
                                           <div className="box">
                                                 <h3 id="box">BACK-END: PHP SYMFONY NODEJS SGBD</h3>
                                                 <p className="p-box">En tant que développeur backend ,
@@ -43,6 +43,7 @@ export default function Competences() {
                                                       <li><b>Conception et évolution de l’infrastructure d’un site web dynamique</b></li>
                                                       <li><b>Architecture et développement de la plateforme de gestion des contenus</b></li>
                                                       <li><b>Développement de solutions et d’applications web</b></li>
+                                                      <li><b>Gestion et configuration de la base de données</b></li>
 
                                                 </p>
 

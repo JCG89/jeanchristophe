@@ -5,7 +5,7 @@ export default function Header() {
       return (
             <div id="jcg" className="header-wrapper">
                   <div className="main-info">
-                        <h1 clas> Jean Christophe Gomis </h1>
+                        <h1> Jean Christophe Gomis </h1>
                         <Typed
                               className="typed-text"
                               strings={["Développeur Web & Web Mobile",
