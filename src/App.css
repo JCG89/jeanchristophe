@@ -88,6 +88,16 @@ nav{
 .projets:hover{
   color: var(--primary-light-grey);
 }
+#jc{
+  color: var(--primary-orange) !important;
+}
+.text{
+  color: var(--primary-grey);
+  
+}
+.portfolio-tof{
+  width: 18.75rem;
+}
 /**************LES MEDIAS DE LA NAVBAR***************/
 @media screen and(max-width:768px){
     .navbar-brand{
@@ -108,6 +118,7 @@ nav{
     display: block;
     justify-content: center;
     margin-right: 0;
+    margin-left: 0;
   }
  
 .container a:hover{
@@ -116,10 +127,10 @@ nav{
   text-align: center;
 }
 .parag{
-  font-size:0.625rem;
+  font-size:0.875rem !important;
 }
 .p-box{
-  font-size:0.625rem;
+  font-size:0.875rem !important;
 }
 .experience{
   padding-right: 0;
@@ -134,24 +145,41 @@ nav{
   font-size:0.75rem;
 }
 .typed-text{
-  color: var(--primary-black);
-  font-size: 1.25rem;
+  color: var(--primary-red) !important;
+  font-size: 1.5rem!important;
+  text-transform: uppercase !important;
 }
 
 .contact form{
   width: 100%;
+  font-size:0.625rem !important;
   
 }
-
+.carousel p{
+  font-size:0.625rem !important;
+}
 .bouton{
   width: 70% !important;
  margin-left: 3rem;
 }
 .main-info h1{
-  font-size: 0.0625rem;
+  font-size:1.5rem!important;
+  color: var(--primary-orange);
+  text-shadow: 0.0625rem 0.0625rem 0.0625rem #000 !important;
 }
 .footer{
-  top: 10rem !important;
+  margin-top: 5rem !important;
+  font-size:0.625rem !important;
+}
+.text{
+  color: var(--primary-grey);
+  text-align: justify;
+  margin: auto !important;
+ 
+}
+#jc{
+  color: var(--primary-orange) !important;
+  font-size:1rem ;
 }
 }
 

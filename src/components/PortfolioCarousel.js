@@ -9,28 +9,33 @@ import avatar4 from "./images/avatar/avatar4.jpeg";
 
 const PortfolioCarousel = () => {
       return (
-            <Carousel>
+            <Carousel className="carousel">
                   <>
-                        <img src={avatar1} alt=" projet-symfony"
+                        <div className="jc">
+                        </div>
+                        <img src={avatar1} alt=" projet-symfony" />
+                        <h3><a href="https://github.com/christophegomis89/awara-boutique" id="jc">AWARA-BOUTIQUE</a></h3>
+                        <p className="text">Site e-commerce avec le framework Symfony 5 :Préenté au jury le 10/06/2021 titre professionnel de développeur web et web mobile RNCP NIVEAU 5</p>
+                  </>
+                  <>
+                        <img src={avatar2} alt="mon portfolio" className="portfolio-tof" />
+                        <h3> <a href="https://github.com/christophegomis89/cv-jean-christophe-gomis" id="jc">MON PORTFOLIO</a> </h3>
+                        <p className="text"> Mon premier portfolio ,réalisé avec le framework REACT JS </p>
+                  </>
+                  <>
+                        <div className="jc">
+                              <img src={avatar3} alt=" projet-react " className="portfolio-tof" />
+                              <h3> <a href="https://gsportnews.fr" id="jc">Gsportnews.fr</a></h3>
+                              <p className="text"> Projet réalisé avec REACT JS. Ce nom de domaine est dédié à mon blog  d'information sportif , mais heberge temporairement mon portfolio qui deviendra Jean Christophe.com ou .fr</p></div>
 
-                        />
-                        <h3> Projet symfony5</h3>
-                        <p>Progressively disseminate unique applications whereas plug-and-play e-markets. Professionally unleash value-added interfaces via resource.</p>
                   </>
                   <>
-                        <a href="https://github.com/christophegomis89/awara-boutique"><img src={avatar2} alt="mon portfolio" className="portfolio-tof" /></a>
-                        <h3> Mon portfolio</h3>
-                        <p>Progressively disseminate unique applications whereas plug-and-play e-markets. Professionally unleash value-added interfaces via resource.</p>
-                  </>
-                  <>
-                        <a href="https://github.com/christophegomis89/awara-boutique"><img src={avatar3} alt=" projet-react" className="portfolio-tof" /></a>
-                        <h3> Projet React</h3>
-                        <p>Progressively disseminate unique applications whereas plug-and-play e-markets. Professionally unleash value-added interfaces via resource.</p>
-                  </>
-                  <>
-                        <a href="https://github.com/christophegomis89/awara-boutique"><img src={avatar4} alt=" smblsemedo" /></a>
-                        <h3> site vitrine smbl semedo</h3>
-                        <p>Progressively disseminate unique applications whereas plug-and-play e-markets. Professionally unleash value-added interfaces via resource.</p>
+                        <div className="jc">
+                              <img src={avatar4} alt=" smblsemedo" className="portfolio-tof" />
+                              <h3> <a href="https://smblsemedo.com" id="jc">site vitrine smbl semedo</a></h3>
+                              <p className="text"> Projet site vitrine  de l'entreprise du BTP SMBLSEMEDO réalisé avec le CMS WORDPRESS </p>
+                        </div>
+
                   </>
             </Carousel>
       )
