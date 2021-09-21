@@ -76,7 +76,9 @@ nav{
 .portfolio{
   background:var(--primary-dark-grey);
   cursor: pointer;
-  margin-top: 5rem;
+  margin-top: 2rem;
+  width: auto;
+  
 }
 .projets{
   color: var(--primary-orange);
@@ -86,7 +88,7 @@ nav{
  
 }
 .projets:hover{
-  color: var(--primary-light-grey);
+  color: var(--primary-grey);
 }
 #jc{
   color: var(--primary-orange) !important;
@@ -96,8 +98,12 @@ nav{
   
 }
 .portfolio-tof{
-  width: 18.75rem;
+  width: 50rem!important;
+  border-radius:0.625rem !important;
+  padding: 0.0625rem;
+  margin-top: 4rem;
 }
+
 /**************LES MEDIAS DE LA NAVBAR***************/
 @media screen and(max-width:768px){
     .navbar-brand{
