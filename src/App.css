@@ -64,8 +64,8 @@ nav{
 }
 /******stylisation du composant apropos*********/
 .parag{
+  text-align: justify;
   
-  margin: 1px;
 }
 /************stylisation du composant contact*********/
 
@@ -134,10 +134,11 @@ nav{
   text-align: center;
 }
 .parag{
-  font-size:0.875rem !important;
+  font-size:1rem !important;
+  text-align: justify;
 }
 .p-box{
-  font-size:0.875rem !important;
+  font-size:1rem!important;
 }
 .experience{
   padding-right: 0;
